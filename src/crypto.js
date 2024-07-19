@@ -102,7 +102,7 @@ export default {
             ],
             encryptedMessage: null,
             decryptedMessage: "",
-            language: "en",
+            language: "pt",
             texts: {
                 "en": {
                     description: "This site offers an easy way to encrypt and decrypt your messages",
@@ -113,7 +113,7 @@ export default {
                     removeColumn: "Remove 1 column",
                     decrypt: "Decrypt",
                     made: "Made by",
-                    change: "Change language to portuguese"
+                    change: "Mudar linguagem para português"
                 },
                 "pt": {
                     description: "Esse site oferece uma maneira fácil de criptografar e descriptografar suas mensagens",
@@ -124,7 +124,7 @@ export default {
                     removeColumn: "Remover 1 coluna",
                     decrypt: "Descriptografar",
                     made: "Feito por",
-                    change: "Mudar linguagem para inglês"
+                    change: "Change language to english"
                 }
             }
 

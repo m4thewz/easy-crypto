@@ -133,8 +133,7 @@ footer {
     color: white;
     text-align: center;
 
-    position: fixed;
-    bottom: 0;
+    margin-top: 10px;
     width: 100%;
     padding: 10px 0;
 }
@@ -156,4 +155,11 @@ footer a {
 
 #toggleLanguage:hover {
     background-color: #696969;
+}
+@media screen and (min-width: 700px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+        margin-top: 0;
+    }
 }

@@ -42,7 +42,7 @@
   
   <button id="toggleLanguage" @click="language = language === 'en' ? 'pt' : 'en'">{{ texts[language].change }}</button>
   <footer>
-    {{ texts[language].made }} <a href="https://m4thewz.github.io" target="_blank">Matheus Pacheco</a>
+    {{ texts[language].made }} <a href="https://m4thewz.github.io" target="_blank">Matheus Pacheco</a>, Yara e Yuki
   </footer>
 </template>
 
